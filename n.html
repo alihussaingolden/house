@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus{
+            border: 5px solid red;
+        }
+        input[type="email"]:invalid{
+            box-shadow: 3px 5px 12px red;
+        }
+        input[type="number"]:out-of-range{
+            border-radius: 20px;
+        }
+        input[type="checkbox"]:checked{
+            
+            box-shadow: 4px 6px 17px yellow;
+        }
+        input[type="radio"]:checked{
+            box-shadow: 5px 3px 8px green;
+        }
+    </style>
+</head>
+<body>
+    <label for="">name</label>
+    <input type="text">
+    <label for="">email</label>
+    <input type="email">
+    <label for="">number</label>
+    <input type="number" max="20" min="10">
+    <input type="checkbox">pakistan
+    <input type="checkbox">pakistan
+    <input type="checkbox">pakistan
+    <input type="radio">male
+    <input type="radio">female
+    <input type="radio">other
+
+</body>
+</html>
