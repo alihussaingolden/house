@@ -1,0 +1,31 @@
+.one{
+    text-align: center;
+}
+.two a{
+    margin-left: 200px;
+
+    text-decoration: none;
+
+    
+}
+.paragraph{
+    margin-left: 1100px;
+}
+body{
+    border: 1px solid gray;
+    
+}
+.three{
+    display: flex;
+}
+.five a{
+text-decoration: none;
+display: block;
+margin-left: -200px;
+}
+a:hover{
+color: yellow;
+}
+.four{
+    margin-left: 20px;
+}
