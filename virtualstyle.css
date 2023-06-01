@@ -1,24 +1,24 @@
-.one{
+#one{
     text-align: center;
 }
-.two a{
+#two a{
     margin-left: 200px;
 
     text-decoration: none;
 
     
 }
-.paragraph{
+#paragraph{
     margin-left: 1100px;
 }
 body{
     border: 1px solid gray;
     
 }
-.three{
+#three{
     display: flex;
 }
-.five a{
+#five a{
 text-decoration: none;
 display: block;
 margin-left: -200px;
@@ -26,6 +26,6 @@ margin-left: -200px;
 a:hover{
 color: yellow;
 }
-.four{
+#four{
     margin-left: 20px;
 }
