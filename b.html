@@ -12,20 +12,18 @@
     </style>
 </head>
 <body>
-  
+  <h1 id="one" onclick='ali("one")'>ali hussain</h1>
+  <h1 id="two" onclick='ali("two")'>sarmad hussain</h1>
+  <h1 id="three" onclick='ali("three")'>irfan ali</h1>
   <script>
-var a=[
-  {
-    first:"ali hussain",
-    last:"sarmad husain",
-    age:20,
-    phone:03107102722
-  },
-  [
-    "pakistan","india","japan"
-  ]
-]
-document.write(a[1][1])
+    function ali(id){
+      var a=prompt("enter the value");
+      var b=document.getElementById(id);
+      var c=b.innerHTML=a;
+      b.style.color="red";
+    
+    }
+    
   </script>
 
 </body>
